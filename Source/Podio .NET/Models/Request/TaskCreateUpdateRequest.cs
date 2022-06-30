@@ -63,7 +63,7 @@ namespace PodioAPI.Models.Request
         ///     The list of files to attach to this task
         /// </summary>
         [JsonProperty("file_ids", NullValueHandling = NullValueHandling.Ignore)]
-        public IEnumerable<int> FileIds { get; set; }
+        public IEnumerable<long> FileIds { get; set; }
 
         /// <summary>
         ///     The list of labels in text form
@@ -105,14 +105,14 @@ namespace PodioAPI.Models.Request
         ///     The reference id for the task. Only for task update operation
         /// </summary>
         [JsonProperty("ref_id", NullValueHandling = NullValueHandling.Ignore)]
-        public int? Id { get; set; }
+        public long? Id { get; set; }
 
-        public void SetResponsible(IEnumerable<int> userIds)
+        public void SetResponsible(IEnumerable<long> userIds)
         {
             this.Responsible = userIds;
         }
 
-        public void SetResponsible(int userId)
+        public void SetResponsible(long userId)
         {
             this.Responsible = userId;
         }

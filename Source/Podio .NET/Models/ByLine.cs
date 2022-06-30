@@ -8,13 +8,13 @@ namespace PodioAPI.Models
         public string Type { get; set; }
 
         [JsonProperty(PropertyName = "id")]
-        public int? Id { get; set; }
+        public long? Id { get; set; }
 
         [JsonProperty(PropertyName = "avatar_type")]
         public string AvatarType { get; set; }
 
         [JsonProperty(PropertyName = "avatar_id")]
-        public int? AvatarId { get; set; }
+        public long? AvatarId { get; set; }
 
         [JsonProperty(PropertyName = "image")]
         public Image Image { get; set; }
@@ -26,6 +26,6 @@ namespace PodioAPI.Models
         public string Url { get; set; }
 
         [JsonProperty(PropertyName = "avatar")]
-        public int? Avatar { get; set; }
+        public long? Avatar { get; set; }
     }
 }

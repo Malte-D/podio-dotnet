@@ -7,7 +7,7 @@ namespace PodioAPI.Models
     public class FileAttachment
     {
         [JsonProperty("file_id")]
-        public int FileId { get; set; }
+        public long FileId { get; set; }
 
         [JsonProperty("link")]
         public string Link { get; set; }

@@ -6,7 +6,7 @@ namespace PodioAPI.Models
     public class Question
     {
         [JsonProperty("question_id")]
-        public int QuestionId { get; set; }
+        public long QuestionId { get; set; }
 
         [JsonProperty("text")]
         public string Text { get; set; }

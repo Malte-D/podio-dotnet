@@ -37,7 +37,7 @@ namespace PodioAPI.Utils.ItemFields
             }
         }
 
-        public void AddEmbed(int embedId, int? fileId = null)
+        public void AddEmbed(long embedId, long? fileId = null)
         {
             EnsureValuesInitialized();
             var jobject = new JObject();

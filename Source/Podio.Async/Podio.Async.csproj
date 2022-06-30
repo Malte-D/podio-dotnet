@@ -5,7 +5,7 @@
     <TargetFrameworks>netstandard1.3;net45</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>Podio.Async</AssemblyName>
-    <PackageId>Podio.Async</PackageId>
+    <PackageId>Malte.Podio.Async</PackageId>
     <PackageTargetFallback Condition=" '$(TargetFramework)' == 'netstandard1.3' ">$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
     <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
@@ -16,8 +16,11 @@
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
     <RootNamespace>Podio.Async</RootNamespace>
-    <Authors>Podio.Async</Authors>
+    <Authors>Malte.Podio.Async</Authors>
     <Version>2.0.0</Version>
+    <PackageVersion>2.1.4</PackageVersion>
+    <Company>Malte.Podio.Async</Company>
+    <Product>Malte.Podio.Async</Product>
   </PropertyGroup>
 
   <ItemGroup>

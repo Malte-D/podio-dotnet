@@ -7,7 +7,7 @@ namespace PodioAPI.Models
     public class Embed
     {
         [JsonProperty("embed_id")]
-        public int EmbedId { get; set; }
+        public long EmbedId { get; set; }
 
         [JsonProperty("original_url")]
         public string OriginalUrl { get; set; }

@@ -7,7 +7,7 @@ namespace PodioAPI.Models
     public class Recurrence
     {
         [JsonProperty(PropertyName = "recurrence_id", NullValueHandling = NullValueHandling.Ignore)]
-        public int? RecurrenceId { get; set; }
+        public long? RecurrenceId { get; set; }
 
         /// <summary>
         ///     The name of the recurrence, "weekly", "monthly" or "yearly"

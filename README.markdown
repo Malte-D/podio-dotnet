@@ -1,6 +1,8 @@
+Changed ids from int to long
+
 [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
-# Podio.NET [![Build status](https://ci.appveyor.com/api/projects/status/mv39ht4y9uk09593?svg=true)](https://ci.appveyor.com/project/AjmalVh/podio-dotnet) [![NuGet](https://img.shields.io/nuget/v/Podio.svg)](https://www.nuget.org/packages/Podio/)
+# Podio.NET [![Build status](https://ci.appveyor.com/api/projects/status/mv39ht4y9uk09593?svg=true)](https://ci.appveyor.com/project/AjmalVh/podio-dotnet) [![NuGet](https://img.shields.io/nuget/v/Podio.svg)](https://www.nuget.org/packages/Malte.Podio.Async)
 
 
 This is the .NET Client for accessing the Podio API.
@@ -10,9 +12,9 @@ Installation
 
 The client library requires .NET Framework 4.5 or higher and [Json.NET](http://www.nuget.org/packages/Newtonsoft.Json/) as its dependency.
 
-This package is available on NuGet Gallery. To install the [Podio package](http://www.nuget.org/packages/podio) run the following command in the [Package Manager Console](http://docs.nuget.org/docs/start-here/using-the-package-manager-console)
+This package is available on NuGet Gallery. To install the [Podio package](https://www.nuget.org/packages/Malte.Podio.Async) run the following command in the [Package Manager Console](http://docs.nuget.org/docs/start-here/using-the-package-manager-console)
 
-    PM> Install-Package Podio.Async
+    PM> Install-Package Malte.Podio.Async
 
 This will install the client library and the required dependency.
 

@@ -27,7 +27,7 @@ namespace PodioAPI.Models.Request
         ///     The id of an embedded link that has been created with the Add an embed operation in the Embed area.
         /// </summary>
         [JsonProperty(PropertyName = "embed_id", NullValueHandling = NullValueHandling.Ignore)]
-        public int? EmbedId { get; set; }
+        public long? EmbedId { get; set; }
 
         /// <summary>
         ///     The url to be attached.

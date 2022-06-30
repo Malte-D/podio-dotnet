@@ -7,10 +7,10 @@ namespace PodioAPI.Models
     public class Contact
     {
         [JsonProperty("profile_id", NullValueHandling = NullValueHandling.Ignore)]
-        public int ProfileId { get; set; }
+        public long ProfileId { get; set; }
 
         [JsonProperty("user_id", NullValueHandling = NullValueHandling.Ignore)]
-        public int? UserId { get; set; }
+        public long? UserId { get; set; }
 
         [JsonProperty("external_id", NullValueHandling = NullValueHandling.Ignore)]
         public string ExternalId { get; set; }

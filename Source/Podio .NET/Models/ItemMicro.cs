@@ -8,7 +8,7 @@ namespace PodioAPI.Models
         public int AppItemId { get; set; }
 
         [JsonProperty("item_id")]
-        public int ItemId { get; set; }
+        public long ItemId { get; set; }
 
         [JsonProperty("title")]
         public string Title { get; set; }

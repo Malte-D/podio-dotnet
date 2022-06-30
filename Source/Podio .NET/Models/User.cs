@@ -7,10 +7,10 @@ namespace PodioAPI.Models
     public class User
     {
         [JsonProperty("user_id", NullValueHandling = NullValueHandling.Ignore)]
-        public int? UserId { get; set; }
+        public long? UserId { get; set; }
 
         [JsonProperty("profile_id", NullValueHandling = NullValueHandling.Ignore)]
-        public int? ProfileId { get; set; }
+        public long? ProfileId { get; set; }
 
         [JsonProperty("name", NullValueHandling = NullValueHandling.Ignore)]
         public string Name { get; set; }
@@ -19,7 +19,7 @@ namespace PodioAPI.Models
         public string Link { get; set; }
 
         [JsonProperty("avatar", NullValueHandling = NullValueHandling.Ignore)]
-        public int? Avatar { get; set; }
+        public long? Avatar { get; set; }
 
         [JsonProperty("status", NullValueHandling = NullValueHandling.Ignore)]
         public string Status { get; set; }
